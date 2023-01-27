@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    padding: 2% 11%;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo a{
+    font-size: .9em;
+    color: #95a5a6;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar ul{
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #95a5a6;
+    font-size: 1em;
+}
+.navbar ul li a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+#home-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+.homepage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50vh;
+    text-align: center;
+}
+.homepage h1{
+    font-size: 7em;
+    letter-spacing: 15px;
+    color: #95a5a6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+.homepage h3{
+    color: #95a5a6;
+    letter-spacing: 1px;
+    margin-top: 7px;
+
+}
+.homepage button{
+    position: relative;
+    padding: 20px 33px;
+    background: #1abc9c;
+    color: white;
+    margin-top: 50px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    border: 2px ;
+}
+.homepage button:hover{
+    opacity: 0.9;
+}
